@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="com.project.listeners.TestListener"></listener>
+</listeners>
+  <test parallel="methods" thread-count="5" name="Test">
+   <classes>
+   
+   		<class name="com.practice.tests.GetTests">
+   			<methods>
+   		     <include name ="getEmployeeDetails"/>
+   		     <include name ="getEmployeeDetail"/>
+   		    </methods>
+   		</class>
+    
+     
+     <class name="com.practice.tests.postTests">
+   			<methods>
+   		     <include name ="postCallTest"/>
+   		     <include name ="postRequestUsingExternalFile"/>
+   		     <include name ="postRequestUsingExternalFileUsingSingleTon"/>
+   		    </methods>
+   		</class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

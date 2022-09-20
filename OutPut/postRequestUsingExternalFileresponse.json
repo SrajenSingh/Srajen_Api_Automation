@@ -1,0 +1,28 @@
+{
+    "id": "983",
+    "first_name": "glenda",
+    "last_name": "goodwin",
+    "email": "abcd123@gmail.com",
+    "jobs": [
+        "tester",
+        "trainer"
+    ],
+    "marks": [
+        {
+            "tamil": 90,
+            "english": 85
+        },
+        {
+            "tamil": 90,
+            "english": 85
+        }
+    ],
+    "favFoods": {
+        "breakfast": "Paranthe",
+        "lunch": "biryani",
+        "dinner": [
+            "Soup",
+            "Khichdi"
+        ]
+    }
+}

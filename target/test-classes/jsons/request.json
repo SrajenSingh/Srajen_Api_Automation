@@ -1,0 +1,28 @@
+{
+    "id": "number",
+    "first_name": "fname",
+    "last_name": "lname",
+    "email": "abcd123@gmail.com",
+    "jobs":["tester","trainer"],
+    "marks":[
+        {
+            "tamil": 90,
+            "english": 85
+
+        },
+        {
+            "tamil": 90,
+            "english": 85
+        }
+
+    ],
+    "favFoods":{
+        "breakfast": "Paranthe",
+        "lunch":"biryani",
+        "dinner":["Soup","Khichdi"]
+    }
+  }
+
+
+
+  
